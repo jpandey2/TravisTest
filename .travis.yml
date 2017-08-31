@@ -14,6 +14,5 @@ before_install:
 #install:
 # - sudo apt-get update && sudo apt-get install docker-ce
 script:
- - sudo docker build -t pythontest . \
-   && sudo docker run pythontest
+ - sudo docker build -t pythontest . 
 
