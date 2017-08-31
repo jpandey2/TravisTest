@@ -1,9 +1,7 @@
 
 before_install:
- - sudo apt-get update -qq && sudo apt-get install \
-   linux-image-extra-$(uname -r) \
-   linux-image-extra-virtual \
-   && sudo apt-get update && sudo apt-get install \
+ - sudo apt-get update -qq \
+   && sudo apt-get install \
    apt-transport-https \
    ca-certificates \
    curl \
