@@ -13,7 +13,7 @@ before_install:
  #  stable"
 #install:
 # - sudo apt-get update && sudo apt-get install docker-ce
-#script:
-# - sudo docker build -t pythontest . \
-#   && sudo docker run python test
+script:
+ - sudo docker build -t pythontest . \
+   && sudo docker run python test
 
